@@ -1,10 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <h1>Cha Vue</h1>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cha's Portfolio</title>
+  </head>
+  <body>
+    <!-- navigation tags - block level element -->
+    <header>
+      <h1>
+        <a href="./index.html">My Portfolio</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#reach-out">Reach Out</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+    <!-- end navigation -->
+
+    <!-- hero/jumbotron -->
+    <section class="hero">
+      <div class="hero-cta">
+        <h2>My Portfolio</h2>
+        <p>
+            Hello and welcome to my portfolio. My name is Cha Vue and this is my journey on becoming a full-stack developer. I have two beautiful children with my wife. My daughter is four years old and my son is two, so you can imagine how much of a handful they are. I love my family and they are the reason why I am able to start this new and exciting adventure of becoming a developer. I have worked in various professional fields, from Business Marketing to Academia. I have always been interested in learning how software and web applications are designed and how they function which made this journey an obivious option when it came time for me to make a change in my professional career. Take a look below to see some of the projects that I have been working on and to find out how to get in contact with me.
+          </p>
+      </div>
+
+
+    </section>
+    <!-- end header -->
+
+
+
+    
+
+    <!-- "meet the trainers" start -->
+    <section id="projects">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          Projects
+        </h2>
+      </div>
+
+      <div class="my-projects">
+        <article class="project">
+
+          <div class="project-bio">
+            <h3 class="project-name">dateLime</h3>
+            <h4 class="project-role"><a href="https://sonarie.github.io/Seven/"><img src="./assets/images/dateLime.PNG"/></a></h4>
+            <p>This is a website that was created to help make date night easier and stress free.</p>
+          </div>
+        </article>
+
+        <article class="project">
+            <div class="project-bio">
+                <h3 class="project-name">U-Post-It</h3>
+                <h4 class="project-role"><a href="https://fast-caverns-19413.herokuapp.com/"><img src="./assets/images/u-post-it.PNG"/></a></h4>
+                <p>This deployed heroku application is an online store designed to be seller friendly.</p>
+              </div>
+          </article>
+
+
+      </div>
+    </section>
+    <!-- "meet the trainers" end -->
+
+    <!-- "reach out" start -->
+    <section id="reach-out" class="contact">
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">
+          Reach Out
+        </h2>
+      </div>
+
+      <div class="contact-info">
+        <div>
+          <h3>Connect with me</h3>
+          <p> 
+          </p>
+
+          <address>
+            Github: <a href="https://github.com/chavue91">https://github.com/chavue91</a><br/>
+            Linkedin: <a href="https://www.linkedin.com/in/cha-vue-aa3325211/">www.linkedin.com/in/cha-vue-aa3325211</a><br/>
+            Email: <a href="mailto:chavue09@gmail.com">chavue09@gmail.com</a>
+          </address>
+          
+        </div>
+
+        <div class="contact-form">
+          <h3>Contact Me</h3>
+          <form>
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" placeholder="Your Name" />
+        
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" placeholder="Message"></textarea>
+        
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="./assets/images/200416_chavue_profile_resize.jpg" class="profile-pic"/>
+
+      </div>
+    </section>
+    <!-- "reach out" end -->
+
+    <!-- footer -->
+    <footer>
+      <h2>Cha Vue</h2>
+    </footer>
+    <!-- footer end -->
+  </body>
 </html>
